@@ -7,7 +7,7 @@ namespace Spaceman
         static void Main(string[] args)
         {
 
-            string[] wordarr =  new string[] { "Metallica", "Boxing", "Canelo" };
+            string[] wordarr =  new string[] { "metallica", "boxing", "canelo" };
             Game g=new Game(wordarr);
             Ufo f= new Ufo(); 
 
