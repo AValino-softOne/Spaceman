@@ -22,7 +22,6 @@ namespace Spaceman{
         public Game(string[] wordarr)
         {
             this.codeword=wordarr[rand.Next(wordarr.Length)];
-            Console.WriteLine(codeword);
 
             this.maxGuess=5;
             this.numWrong=0;
